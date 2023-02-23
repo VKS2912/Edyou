@@ -1,0 +1,18 @@
+{
+  "name": "edureka_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "edu" : "cd edu && npm start",
+    "edu_backend": "cd edu_backend && npm start",
+    "dev": "concurrently \"npm run edu\" \"npm run edu_backend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "create-react-app": "^5.0.1"
+  }
+}
